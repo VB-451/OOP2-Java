@@ -7,7 +7,8 @@ public class Lindt extends CandyBox{
 
     public Lindt(){}
 
-    public Lindt(float newLength, float newWidth, float newHeight){
+    public Lindt(String flavour, String origin, float newLength, float newWidth, float newHeight){
+        super(flavour, origin);
         this.length = newLength;
         this.width = newWidth;
         this.height = newHeight;
@@ -16,6 +17,15 @@ public class Lindt extends CandyBox{
     @Override
     public float getVolume(){
         return length * width * height;
+    }
+
+    @Override
+    public String toString() {
+        return "The " + super.toString() + " Lindt has volume " + getVolume();
+    }
+
+    public void printLindtDim() {
+        System.out.println("Dimensiunile cutiei Lindt: Lungimea = " + length + ", Latimea = " + width + ", Inaltimea = " + height);
     }
 
 }
