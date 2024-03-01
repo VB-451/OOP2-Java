@@ -8,6 +8,5 @@ public class Test {
         firstComplex.showNumber();
         firstComplex.multiplyComplex(secondComplex);
         firstComplex.showNumber();
-        //hueta dlya testa
     }
 }
