@@ -10,7 +10,7 @@ public class PasswordMaker {
     }
 
     public String getPassword(){
-
+        return "bruh";
     }
 
 }

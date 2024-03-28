@@ -24,10 +24,10 @@ public class BookstoreCheck {
         book1.pageCount = 200;
 
         Book book2 = new Book();
-        book2.title = "Book1";
+        book2.title = "Book2";
         book2.author = "Author1";
         book2.publisher = "Publisher1";
-        book2.pageCount = 200;
+        book2.pageCount = 201;
 
 
         System.out.println("Cartile sunt egale ? : " + isDuplicate(book1, book2));
